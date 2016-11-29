@@ -1,0 +1,180 @@
+body {
+  font-family: Trebuchet ms, Verdana, Arial, Sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #C9BEA8;
+}
+
+header {
+  position: absolute;
+  font-size: 50px;
+  margin-left: 650px;
+  margin-top: 200px;
+  color: #2A47BF;
+}
+
+nav img {
+  width: 1519px;
+  height: 800px;
+}
+
+nav > ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav > ul > li {
+  float: left;
+  position: relative;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+.sous-menu {
+  display: none;
+}
+
+nav {
+  width: 126%;
+  background-color: #424558;
+}
+
+nav > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav > ul > li > a {
+  padding: 20px 30px;
+  color: #fff;
+}
+
+nav li:hover .sous-menu {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+}
+
+.sous-menu li {
+  border-bottom: 1px solid #ccc;
+}
+
+.sous-menu li a {
+  font-size: 13px;
+  color: #222538;
+  width: 270px;
+  height: 15px;
+}
+
+nav > ul > li:hover {
+background-color: #303240;
+}
+
+
+nav > ul > li:hover a{
+  padding: 20px 30px 20px 30px;
+}
+
+.menu-actualites .sous-menu {
+  background-color: #00FFD2;
+}
+
+.menu-artistes .sous-menu {
+  background-color: #0CDDE8;
+}
+
+.menu-compos .sous-menu {
+  background-color: #0DCCFF;
+}
+
+.menu-covers .sous-menu {
+  background-color: #0C7DE8;
+}
+
+.menu-telechargement .sous-menu {
+  background-color: #0C92D9;
+}
+
+.sous-menu li:hover a{
+  color: #eee;
+  font-weight: bold;
+}
+
+.menu-actualites .sous-menu li:hover {
+  background-color: #0D54FF;
+}
+
+.menu-artistes .sous-menu li:hover {
+  background-color: #0C7DE8;
+}
+
+.menu-compos .sous-menu li:hover {
+  background-color: #00BAFF;
+}
+
+.menu-covers .sous-menu li:hover {
+  background-color: #0CDDE8;
+}
+
+.menu-telechargement .sous-menu li:hover {
+  background-color: #00FFD2;
+}
+
+article img {
+  width: auto;
+  height: auto;
+  padding: 0px 265px;
+}
+
+aside {
+  margin-top: 590px;
+}
+
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 150px;
+  bottom: 0px;
+  left: 15px;
+}
+
+article h2 {
+  position: absolute;
+  color: #fff;
+  margin-left: 675px;
+  margin-top: 115px;
+}
+
+article p {
+  position: absolute;
+  margin-left: 505px;
+  margin-bottom: 0px;
+  margin-top: 160px;
+  margin-right: 150px;
+  color: #fff;
+  background-color: rgba(99, 99, 99, 0.30);
+  padding: 20px;
+  text-align: justify;
+  z-index:
+}
+
+footer li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer li {
+  display: inline-block;
+  color: #fff;
+  padding-left: 130px;
+}

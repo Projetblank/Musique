@@ -2,47 +2,73 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>10&20</title>
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>mic_</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
+
     <header>
-      <h1>Nom_site</h1>
+        <h1>mic_</h1>
     </header>
-    <main>
-      <Nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="covers/covers.html">Covers</a></li>
-          <li><a href="paroles/paroles.html">Paroles</a></li>
-          <li><a href="compos/compos.html">Compos</a></li>
-          <li><a href="téléchargements/téléchargements.html">Téléchargement</a></li>
-          <li><a href="actualités/actualités.html">Actualités</a></li>
-        </ul>
-        <img src="logofinal.png" alt="Oops Apparemment pas d'image">
-      </Nav>
-      <Articles>
-        <h3>Biographie</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-          deserunt mollit anim id est laborum.</p>
-      </Articles>
-      <Aside>
-        <h3>Evènement</h3>
-        <h3>Dates Concerts</h3>
-      </Aside>
-    </main>
+
+    <nav>
+      <img src="photobanniere.jpg" alt="Pas disponible">
+      <ul>
+        <li class="menu-index"><a href="index.html">Accueil</a></li>
+        <li class="menu-actualites"><a href="actualites/actualites.html">Actualités</a>
+          <ul class="sous-menu">
+            <li><a href="#">Album</a></li>
+            <li><a href="#">Interviews</a></li>
+          </ul>
+        </li>
+        <li class="menu-artistes"><a href="artistes/artistes.html">Artistes</a>
+          <ul class="sous-menu">
+            <li><a href="#">Paroles</a></li>
+            <li><a href="#">Top de la semaine</a></li>
+          </ul>
+        </li>
+        <li class="menu-compos"><a href="compos/compos.html">Compos</a>
+          <ul class="sous-menu">
+            <li><a href="#">Nouveautés</a></li>
+            <li><a href="#">Biographies</a></li>
+          </ul>
+        </li>
+        <li class="menu-covers"><a href="covers/covers.html">Covers</a>
+          <ul class="sous-menu">
+            <li><a href="#">Biographies</a></li>
+            <li><a href="#">Nouveautés</a></li>
+          </ul>
+        </li>
+        <li class="menu-telechargement"><a href="telechargement/telechargement.html">Téléchargements</a>
+          <ul class="sous-menu">
+            <li><a href="#">Comment télécharger ?</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <article>
+      <h2>Présentation</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="photoarticle.jpg" alt="Pas disponible">
+    </article>
+
+    <aside>
+      <img class="logo" src="Logo projet site bleu.png" alt="Pas disponible" />
+    </aside>
+
     <footer>
       <ul>
-        <li>Qui sommes nous ?</li>
-        <li><a href="maito:fdzfze@gmail.com">Nous Contactez</a></li>
-        <li>Réseaux sociaux</li>
-        <li>Copyright 2017 _Blank Prod</li>
+          <li>Qui sommes nous ?</li>
+          <li><a href="mailto:fdzfze@gmail.com">Nous Contactez</a></li>
+          <li>Réseaux sociaux</li>
+          <li>Copyright 2017 _Blank Prod</li>
       </ul>
-    </Footer>
+    </footer>
   </body>
 </html>
